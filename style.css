@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+:root {
+    --yellow:hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+    --ff :"Figtree", sans-serif;
+}
+body {
+    background-color: var(--yellow);
+    font-family: var(--ff);
+
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.main-container {
+    background-color: var(--White);
+    padding: 20px;
+    border-radius: 10px;
+    border: 1.5px solid #000;
+    margin-top: 15px;
+    box-shadow: 8px 8px;
+
+}
+.img-sec img {
+    border-radius: 15px;
+
+
+}
+.tag-sec button {
+    color: var(--Black);
+    background: var(--yellow);
+    outline: none;
+    border: none;
+    padding: 4px 13px;
+    border-radius: 4px;
+    margin: 10px 10px 10px 0;
+
+}
+.date {
+    color: var(--Black);
+    font-weight: 500;
+}
+.head-sec h2 {
+    font-weight: 800;
+}
+.head-sec p {
+    font-size: 16px;
+}
+.profile-sec {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-top: 20px;
+}
+.profile-sec img {
+    width: 50px;
+    height: 50px;
+}
+.profile-sec h4 {
+    font-weight: 800;
+}
+.attribution {
+    margin-top: 15px;
+}
